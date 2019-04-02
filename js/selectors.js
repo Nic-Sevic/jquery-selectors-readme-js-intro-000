@@ -1,4 +1,4 @@
-// declare your functions here...
+/ declare your functions here...
 function paragraphSelector() {
   return $('p')
 }
@@ -16,5 +16,5 @@ function divSelector() {
 }
 
 function firstListItem() {
-  return $('ul#pic-list:first-child')
+  return $('input[ul][#pic-list]:first-child')
 }
